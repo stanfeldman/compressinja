@@ -89,7 +89,7 @@ class HtmlCompressor(Extension):
         buffer = []
         def write_data(value):
             if not self.is_isolated(ctx.stack):
-                value = _ws_normalize_re.sub(' ', value.strip())
+                value = _ws_normalize_re.sub(' ', value)
             buffer.append(value)
 
         for match in _tag_re.finditer(ctx.token.value):
