@@ -6,7 +6,7 @@ except:
 
 setup(
     name = "compressinja",
-    version = "0.0.1",
+    version = "0.0.2",
     author = "Stanislav Feldman",
     description = ("Jinja2 extension that removes whitespace between HTML tags."),
     url = "https://github.com/stanislavfeldman/compressinja",
